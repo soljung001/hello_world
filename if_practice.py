@@ -6,7 +6,8 @@ Created on Wed Jul 26 15:17:52 2023
 """
 
 n = input ("Enter a number:")
-if n==1:
+if n == '1':
     print("True")
 else:
-    print("False")
+    print(n + " is not 1, so False")
+    
